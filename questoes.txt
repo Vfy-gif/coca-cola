@@ -1,0 +1,46 @@
+1. O que é um repositório no Git e qual a sua importância?
+    Um repositório Git tem a função de armazenar seus códigos, arquivos
+ e o histórico de revisão de cada, é importante pela interação com histórico,
+ pela facilidade em comparar e identificar versões do código, a possibilidade
+ de clonar o repositório e muito mais. 
+
+2. Qual a função do Git Bash?
+    Ele permite a interação do Git com as linhas de comando.
+
+3. O que faz o comando git add e qual a diferença entre git add <arquivo> e git add .?
+    O "git add" adiciona alterações a arquivos no diretório de trabalho para área de preparação.
+ O "git add <arquivo>" adiciona um arquivo em específico para área de preparação, enquanto o "git add ."
+adiciona todos os arquivo à área de preparação.
+
+4. Por que utilizamos o ponto (.) no comando git add .?
+    Devido a uma facilidade na seleção dos arquivos para área de preparação,
+tirando a necessidade de adicionar um por um.
+
+5. Explique o comando git commit e por que é importante criar uma mensagem descritiva.
+    
+
+6. Qual a função do comando git push?
+
+7. Qual a importância de criar commits frequentes durante o desenvolvimento de um projeto?
+
+8. Explique a função das tags HTML e como elas estruturam uma página.
+
+9. O que são atributos em uma tag HTML e qual a sua função?
+
+10. O que é o Emmet e como ele facilita o desenvolvimento de páginas HTML?
+
+11. O que é o box-sizing no CSS e por que usamos ele no reset inicial?
+
+12. Por que é importante utilizar tags semânticas no HTML?
+
+13. O que são média queries no CSS e qual a sua função?
+
+14. Qual a função do GitHub Pages?
+
+15. O que é o Flexbox no CSS e para que ele é utilizado?
+
+16. Qual a diferença entre justify-content e align-items em um container Flexbox?
+
+17. Como o flex-grow funciona e qual o seu propósito no layout Flexbox?
+
+18. Explique a diferença entre flex-direction: column; e flex-direction: row;.
