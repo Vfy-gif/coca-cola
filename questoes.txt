@@ -17,30 +17,57 @@ adiciona todos os arquivo à área de preparação.
 tirando a necessidade de adicionar um por um.
 
 5. Explique o comando git commit e por que é importante criar uma mensagem descritiva.
-    
+    O comando git commit é usado para registrar mudanças no repositório do Git. Ele é importante pois 
+cria um "snapshot" do seu código no momento do commit, ou seja monstra cada modificação realizada.
 
 6. Qual a função do comando git push?
+    O git push é utilizado para enviar os commits locais para um repositório remoto, atualizando a versão no servidor 
 
 7. Qual a importância de criar commits frequentes durante o desenvolvimento de um projeto?
+    Criar commits frequentes permite registrar o progresso contínuo, facilita a identificação
+ de erros e torna o histórico mais claro e organizado
 
 8. Explique a função das tags HTML e como elas estruturam uma página.
+    As tags HTML definem a estrutura e o conteúdo de uma página web. Elas envolvem elementos 
+(como texto, imagens e links) e são usadas para criar a hierarquia e os diferentes componentes da página.
 
 9. O que são atributos em uma tag HTML e qual a sua função?
+    Atributos em tags HTML fornecem informações adicionais sobre um elemento, como IDs, 
+classes ou links. Eles modificam o comportamento ou a aparência do elemento.
 
 10. O que é o Emmet e como ele facilita o desenvolvimento de páginas HTML?
+    Emmet é uma ferramenta de produtividade que permite escrever código HTML e CSS de maneira mais rápida, 
+gerando código completo a partir de abreviações.
 
 11. O que é o box-sizing no CSS e por que usamos ele no reset inicial?
+    O box-sizing define como a largura e altura de um elemento são calculadas. Usamos box-sizing: border-box no 
+reset para incluir padding e bordas dentro das dimensões definidas de um elemento, tornando o layout mais previsível.
 
 12. Por que é importante utilizar tags semânticas no HTML?
+    Tags semânticas melhoram a acessibilidade e a SEO (otimização para motores de busca), além de tornar 
+o código mais legível e fácil de entender.
 
 13. O que são média queries no CSS e qual a sua função?
+    As media queries permitem aplicar estilos diferentes dependendo das características do dispositivo
+(como a largura da tela), ajudando a criar layouts responsivos.
 
 14. Qual a função do GitHub Pages?
+    O GitHub Pages permite hospedar sites diretamente de repositórios GitHub, facilitando 
+a publicação de sites estáticos.
 
-15. O que é o Flexbox no CSS e para que ele é utilizado?
+15. O que é o Flexbox no CSS e para que ele é utilizado? 
+    O Flexbox é um modelo de layout no CSS que facilita o alinhamento e distribuição de elementos
+ dentro de um container, especialmente em layouts dinâmicos e responsivos.
 
 16. Qual a diferença entre justify-content e align-items em um container Flexbox?
+    Justify-content alinha os itens ao longo do eixo principal (horizontal por padrão).
+    Align-items alinha os itens ao longo do eixo transversal (vertical por padrão).
 
 17. Como o flex-grow funciona e qual o seu propósito no layout Flexbox?
+    O flex-grow define a quantidade de espaço extra que um item deve ocupar dentro de um container flexível. 
+Ele ajuda a distribuir o espaço disponível de forma proporcional.
 
 18. Explique a diferença entre flex-direction: column; e flex-direction: row;.
+
+    flex-direction: row organiza os itens em linha horizontal (padrão).
+    flex-direction: column organiza os itens em uma coluna vertical.
