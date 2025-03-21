@@ -3,42 +3,90 @@
     box-sizing: border-box;
     margin: 0;
 }
+body {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(3,255,0);
+    background: linear-gradient(90deg, rgba(3,255,0,1) 0%, rgba(71,189,4,1) 35%, rgba(64,138,8,0.8758096988795518) 100%);
+}
 header{
-    background-color: greenyellow;
-    height: 15vh;
     display: grid;
+    grid-template-columns: 100px 100px 1fr;
+    padding: 25px;
 }
+
 main {
-    background-color: green;
-    height: 70vh;
-    justify-content: center;
     display: grid;
-    place-content: center;
-    grid-template-areas: 
-        "f2 f2 f2 f3 f3"
-        "f1 f1 f1 f1 f1"
-        "f1 f1 f1 f1 f1";
-        grid-template-rows: repeat(1, 0vh);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    align-self: center;
+    justify-self: center;
 }
-.background-logo:nth-of-type(1){
-    grid-area: f1;
-}
-.content-image:nth-of-type(1){
-    grid-area: f2;
-}
+
 .background-logo {
-    height: 60vh;
-    width: 60vw;
-    display: grid;
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: -1;
 }
+
 .content-image {
-    display: grid;
+    width: 80vh;
     place-content: center;
 }
 
 footer {
-    background-color:darkgreen;
-    height: 15vh;
     display: grid;
-    place-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+h2 {
+    color: #007E3B;
+    position: absolute;
+    left: 23%;
+    top: 45%;
+    font-size: 70px;
+    font-family: "Arial", "Helvetica", sans-serif;
+     -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+span {
+    align-items: center;
+    justify-self: center;
+}
+
+@media (max-width: 1024px) {
+    body{
+        grid-template-columns: 1fr;
+        overflow-x: hidden;
+    }
+    header{
+        grid-template-columns: 50px 50px 50px;
+        width: 100px;
+    }
+    main{
+        width: 100px;
+        align-self: auto;
+        justify-self: auto;
+    }
+    .content-image{
+        width: 100dvw;
+    }
+    .background-logo{
+        width: 100%;
+        height: 50%;
+        left: 0;
+
+    }
+    h2{
+        font-size: 1.25rem;
+        top: 45%;
+        left: 7%;
+    }
+    footer{
+        grid-template-columns: 1fr 1fr 1fr;
+}
 }
